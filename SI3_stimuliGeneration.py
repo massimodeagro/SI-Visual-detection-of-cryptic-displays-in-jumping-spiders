@@ -101,20 +101,20 @@ def generate(stimType, canvassize=50, objsize=10):
     elif stimType == 3:
         ###~~~ CRYPTIC TRANSLATING STIMULUS ~~~###
         for i in range(5):  # five frames before first stimulus appearance
-            secondOrderSTIM.append(bgimage)
+            crypticSTIM.append(bgimage)
         for pos in travel_positions:
             thisframe = bgimage.copy()
             thisframe[int(canvascenter + pos - objsize / 2):int(canvascenter + pos + objsize / 2),
-            int(canvascenter - objsize / 2):int(canvascenter + objsize / 2)] = secondOrderOBJ
-            secondOrderSTIM.append(thisframe)
+            int(canvascenter - objsize / 2):int(canvascenter + objsize / 2)] = crypticOBJ
+            crypticSTIM.append(thisframe)
         for pos in list(reversed(travel_positions)):
             thisframe = bgimage.copy()
             thisframe[int(canvascenter + pos - objsize / 2):int(canvascenter + pos + objsize / 2),
-            int(canvascenter - objsize / 2):int(canvascenter + objsize / 2)] = secondOrderOBJ
-            secondOrderSTIM.append(thisframe)
+            int(canvascenter - objsize / 2):int(canvascenter + objsize / 2)] = crypticOBJ
+            crypticSTIM.append(thisframe)
         for i in range(5):
-            secondOrderSTIM.append(bgimage)
-        outSTIM = np.array(secondOrderSTIM)
+            crypticSTIM.append(bgimage)
+        outSTIM = np.array(crypticSTIM)
 
     elif stimType == 4:
         ###~~~ ALTERNATING FLIP STIMULUS ~~~###
