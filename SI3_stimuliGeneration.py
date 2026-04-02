@@ -8,7 +8,7 @@ def generate(stimType, canvassize=50, objsize=10):
     ###0 ~~~ BLACK TRANSLATING STIMULUS ~~~###
     ###1 ~~~ WHITE TRANSLATING STIMULUS ~~~###
     ###2 ~~~ GREY TRANSLATING STIMULUS ~~~###
-    ###3 ~~~ SECONDORDER TRANSLATING STIMULUS ~~~###
+    ###3 ~~~ CRYPTIC TRANSLATING STIMULUS ~~~###
     ###4 ~~~ ALTERNATING FLIP STIMULUS ~~~###
     ###5 ~~~ BLACK FLASH STIMULUS ~~~###
     ###6 ~~~ WHITE FLASH STIMULUS ~~~###
@@ -99,7 +99,7 @@ def generate(stimType, canvassize=50, objsize=10):
         outSTIM = np.array(greySTIM)
 
     elif stimType == 3:
-        ###~~~ SECONDORDER TRANSLATING STIMULUS ~~~###
+        ###~~~ CRYPTIC TRANSLATING STIMULUS ~~~###
         for i in range(5):  # five frames before first stimulus appearance
             secondOrderSTIM.append(bgimage)
         for pos in travel_positions:
