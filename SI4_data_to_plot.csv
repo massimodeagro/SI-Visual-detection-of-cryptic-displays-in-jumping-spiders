@@ -1,0 +1,37 @@
+exp,stim,eyes,prob,error,error_type
+Experiment 1,Black,ALE,0.467048,0.046724,SE
+Experiment 1,Grey,ALE,0.422503,0.046063,SE
+Experiment 1,none,ALE,0.140070,0.017761,SE
+Experiment 1,Alt. Flip,ALE,0.550630,0.046508,SE
+Experiment 1,Cryptic,ALE,0.334040,0.043130,SE
+Experiment 1,White,ALE,0.257897,0.038810,SE
+Experiment 2,Black,ALE,0.524642,0.051095,SE
+Experiment 2,none,ALE,0.109335,0.016808,SE
+Experiment 2,Alt. Flip,ALE,0.514761,0.051154,SE
+Experiment 2,Flash N.,ALE,0.088313,0.021317,SE
+Experiment 2,Cryptic,ALE,0.460614,0.050889,SE
+Experiment 2,Flash B.,ALE,0.062373,0.017111,SE
+Experiment 2,Flash W.,ALE,0.119080,0.025798,SE
+Experiment 3,Black,ALE,0.548876,0.066349,SE
+Experiment 3,none,ALE,0.112644,0.019901,SE
+Experiment 3,Alt. Flip,ALE,0.574028,0.065763,SE
+Experiment 3,Flash N.,ALE,0.140278,0.040273,SE
+Experiment 3,Cryptic,ALE,0.300446,0.058860,SE
+Experiment 3,Flash B.,ALE,0.097927,0.033008,SE
+Experiment 3,Flash W.,ALE,0.140278,0.040273,SE
+Experiment 3,Black,PLE,0.241349,0.053400,SE
+Experiment 3,none,PLE,0.071248,0.014508,SE
+Experiment 3,Alt. Flip,PLE,0.184266,0.046628,SE
+Experiment 3,Flash N.,PLE,0.108358,0.034920,SE
+Experiment 3,Cryptic,PLE,0.173121,0.045118,SE
+Experiment 3,Flash B.,PLE,0.097932,0.033009,SE
+Experiment 3,Flash W.,PLE,0.087614,0.031024,SE
+Model,Black,Blank,0.424000,0.154000,STD
+Model,Cryptic,Blank,0.463000,0.160000,STD
+Model,Alt. Flip,Blank,0.574000,0.149000,STD
+Model,Flash B.,Blank,0.092200,0.087200,STD
+Model,Flash W.,Blank,0.092200,0.084600,STD
+Model,Flash N.,Blank,0.093300,0.087900,STD
+Model,Grey,Blank,0.296000,0.135000,STD
+Model,White,Blank,0.408000,0.172000,STD
+Model,none,Blank,0.064600,0.027100,STD
