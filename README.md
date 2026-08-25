@@ -1,6 +1,6 @@
 Supplemental information for "Visual detection of cryptic displays in jumping spiders"
 
-DOI to preprint available soon
+DOI to preprint: https://doi.org/10.64898/2026.04.03.716102
 
 ## Content:
 
