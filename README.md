@@ -22,3 +22,8 @@ files describing the filter generation
 this is for Figure 3 generation
 - `SI4_data_to_plot.csv` organized model output (from SI1) and simulated output (SI3) data for plot
 - `SI4_plot.py` code that generates the plot from data
+
+### SI5 - supplementary analysis
+files reporting additional consideration on the collected data, namely the pivot magnitude, duration and response rate
+- `SI5_pivot_measures.html` visible through github pages
+- `SI5_data_rotation_windows.csv` cumulative raw data of z axis rotations in 2 seconds window of each stimulus (without binary selection as in SI2)
