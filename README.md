@@ -6,7 +6,7 @@ DOI to preprint: https://doi.org/10.64898/2026.04.03.716102
 
 ### SI1 - analysis
 files reporting the analysis done in R.
-- `SI1_analysis.html` visible through github pages
+- `SI1_analysis.html` visible through github pages https://massimodeagro.github.io/SI-Visual-detection-of-cryptic-displays-in-jumping-spiders/SI1_analysis.html
 
 ### SI2 - data
 files containing the raw data for the analysis
@@ -25,5 +25,5 @@ this is for Figure 3 generation
 
 ### SI5 - supplementary analysis
 files reporting additional consideration on the collected data, namely the pivot magnitude, duration and response rate
-- `SI5_pivot_measures.html` visible through github pages
+- `SI5_pivot_measures.html` visible through github pages https://massimodeagro.github.io/SI-Visual-detection-of-cryptic-displays-in-jumping-spiders/SI5_pivot_measures.html
 - `SI5_data_rotation_windows.csv` cumulative raw data of z axis rotations in 2 seconds window of each stimulus (without binary selection as in SI2)
