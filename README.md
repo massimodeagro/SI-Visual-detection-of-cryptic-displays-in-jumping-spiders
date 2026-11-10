@@ -17,6 +17,7 @@ files containing the raw data for the analysis
 files describing the filter generation
 - `SI3_stimuliGeneration.py` contains the code used to generate the numpy matrices of the visual stimuli
 - `SI3_spatiotemporal_filter_model.py` this implements the spatiotemporal filter, applies it to the stimuli and generate a binary response, repeating many times until getting simulated experiment
+- `SI3_model_selection_summary.jpg` summary matrix explaining how the model parameters were selected. Values represent MSE distance between simulated and measured pivot probability values (< values mean better fit)
 
 ### SI4 - plot
 this is for Figure 3 generation
